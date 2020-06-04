@@ -7,17 +7,17 @@ web_html = Blueprint('web_html', __name__)
 def get_html(html_name):
     if not html_name:
         # :5000/
-        file_name = 'index.html'
+        html_name = 'index.html'
 
     # 如果资源名不是favicon.ico
     if html_name != 'favicon.ico':
-        file_name = 'html/' + html_name
+        html_name = 'html/' + html_name
 
     # 创建一个csrf_token的值
     csrf_token = csrf.generate_csrf()
 
     # flask提供的返回静态文件的方法
-    resp = make_response(current_app.send_static_file(file_name))
+    resp = make_response(current_app.send_static_file(html_name))
 
     # 设置csrf_token的cookie
     resp.set_cookie('csrf_token', csrf_token)
