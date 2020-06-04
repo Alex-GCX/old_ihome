@@ -1,0 +1,342 @@
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 118-200-028
+ERROR demo.py:7 this is error
+INFO demo.py:8 this is info
+DEBUG demo.py:9 this is debug
+WARNING demo.py:10 this is warn
+INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:01:56] "[37mGET /api/v1.0/index/ HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+[2020-06-04 14:04:59,019]WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 14:04:59,020]INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 14:05:04,064]INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+INFO _internal.py:113  * Restarting with stat
+[2020-06-04 14:05:04,955] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 14:05:04,956] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 14:26:38,373] ERROR __init__.py:98 Error: Directory migrations already exists and is not empty
+[2020-06-04 14:46:30,885] ERROR __init__.py:98 Error: Directory migrations already exists and is not empty
+[2020-06-04 14:47:23,620] ERROR __init__.py:98 Error: Directory migrations already exists and is not empty
+[2020-06-04 14:53:31,856] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 14:53:31,857] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 14:53:32,414] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 14:53:32,417] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 14:53:45,667] ERROR demo.py:7 this is error
+[2020-06-04 14:53:45,667] INFO demo.py:8 this is info
+[2020-06-04 14:53:45,667] DEBUG demo.py:9 this is debug
+[2020-06-04 14:53:45,667] WARNING demo.py:10 this is warn
+[2020-06-04 14:53:45,669] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:53:45] "[37mGET /api/v1.0/index/ HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:04,988] ERROR demo.py:7 this is error
+[2020-06-04 14:54:04,988] INFO demo.py:8 this is info
+[2020-06-04 14:54:04,988] DEBUG demo.py:9 this is debug
+[2020-06-04 14:54:04,989] WARNING demo.py:10 this is warn
+[2020-06-04 14:54:04,990] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:04] "[37mGET /api/v1.0/index/ HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,807] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/html/register.html HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,854] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,856] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,858] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,860] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,862] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,864] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,900] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,908] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:38,909] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:38] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:40,342] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:40] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+[2020-06-04 14:54:40,344] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:40] "[33mGET /api/v1.0/image_codes/03cb66c1-9988-4d1a-b572-d673a1a6a215 HTTP/1.1[0m" 404 -
+[2020-06-04 14:54:46,909] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:46] "[33mGET /login.html HTTP/1.1[0m" 404 -
+[2020-06-04 14:54:48,751] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 14:54:48] "[33mGET /api/v1.0/image_codes/fa274f46-e095-4663-80df-431b10eb9262 HTTP/1.1[0m" 404 -
+[2020-06-04 15:08:20,298] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:08:20,298] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:08:20,866] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:08:20,867] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:08:24,884] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:08:24,884] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:08:25,467] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:08:25,467] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:08:32,000] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:08:32] "[33mGET /register.html HTTP/1.1[0m" 404 -
+[2020-06-04 15:08:53,695] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/__init__.py', reloading
+[2020-06-04 15:08:53,767] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:08:54,330] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:08:54,330] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:09:11,214] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:09:11] "[33mGET /register.html HTTP/1.1[0m" 404 -
+[2020-06-04 15:09:46,947] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:09:46,947] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:11:04,987] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:11:04,988] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:11:38,180] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:11:38,181] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:15:35,605] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:15:35,605] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:15:39,047] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 15:15:39,094] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:15:39,100] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:15:39,101] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:15:39,253] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:15:39,257] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:15:39,643] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:15:39] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:03,772] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:16:03,773] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:16:04,332] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:16:04,332] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:16:05,797] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:05] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 15:16:05,861] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:05] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:05,910] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:05] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:05,936] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:05] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:06,048] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:06] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:06,051] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:06] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:06,143] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:06] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:16:32,547] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+[2020-06-04 15:16:32,623] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:16:33,237] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:16:33,237] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:16:38,325] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:16:38] "[37mGET /register.html HTTP/1.1[0m" 200 -
+[2020-06-04 15:17:22,736] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:17:22,736] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:17:25,147] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:17:25] "[37mGET /123 HTTP/1.1[0m" 200 -
+[2020-06-04 15:17:27,990] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:17:27] "[33mGET / HTTP/1.1[0m" 404 -
+[2020-06-04 15:17:30,071] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:17:30] "[37mGET /1 HTTP/1.1[0m" 200 -
+[2020-06-04 15:27:33,421] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+[2020-06-04 15:27:33,504] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:30:42,966] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:30:42,967] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:31:23,758] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:31:23,838] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:31:24,402] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:31:24,405] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:31:30,933] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:30] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+[2020-06-04 15:31:30,977] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:30] "[37mGET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:30,978] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:30] "[37mGET /1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:30,982] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:30] "[37mGET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:31,155] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:31] "[37mGET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:31,160] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:31] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:31,235] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:31] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:55,506] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:55] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+[2020-06-04 15:31:55,580] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:55] "[37mGET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:55,595] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:55] "[37mGET /1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:55,599] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:55] "[37mGET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:55,868] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:55] "[37mGET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:56,123] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:56] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:31:56,209] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:31:56] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:43,014] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:32:43,095] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:32:53,952] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:53] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+[2020-06-04 15:32:54,000] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:54,002] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:54,005] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:54,186] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:54,187] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:32:54,655] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:32:54] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:03,789] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:33:03,790] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:33:04,392] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:33:04,393] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:33:08,539] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+[2020-06-04 15:33:08,604] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[37mGET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:08,606] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[37mGET /1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:08,610] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[37mGET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:08,789] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:08,790] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:08] "[37mGET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:09,081] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:09] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:49,738] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+[2020-06-04 15:33:50,007] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:33:54,677] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+[2020-06-04 15:33:54,757] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:33:57,039] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 15:33:57,040] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:33:57,572] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:33:57,572] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:33:59,484] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+[2020-06-04 15:33:59,534] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[37mGET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:59,535] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[37mGET /1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:59,536] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[37mGET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:59,681] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[37mGET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 15:33:59,689] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:33:59] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:34:00,050] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:34:00] "[37mGET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 15:34:30,823] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:34:30,909] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:34:31,468] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:34:31,468] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:34:32,779] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:34:32] "[33mGET /1 HTTP/1.1[0m" 404 -
+[2020-06-04 15:34:47,593] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:34:47,667] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:34:48,223] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:34:48,224] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:34:48,725] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:34:48] "[37mGET /1 HTTP/1.1[0m" 200 -
+[2020-06-04 15:34:51,623] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:34:51] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-06-04 15:34:54,470] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:34:54] "[37mGET /123 HTTP/1.1[0m" 200 -
+[2020-06-04 15:35:11,420] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:35:11,612] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:35:14,779] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:35:14] "[37mGET /123 HTTP/1.1[0m" 200 -
+[2020-06-04 15:35:17,279] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:35:17] "[37mGET /1123 HTTP/1.1[0m" 200 -
+[2020-06-04 15:35:22,993] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:35:22] "[37mGET /123/12333 HTTP/1.1[0m" 200 -
+[2020-06-04 15:39:04,414] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:39:04] "[37mGET /hello.html HTTP/1.1[0m" 200 -
+[2020-06-04 15:51:16,464] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 15:51:16,544] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 15:51:17,105] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:51:17,106] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:51:34,880] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:51:34] "[33mGET /hello.html HTTP/1.1[0m" 404 -
+[2020-06-04 15:51:44,942] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:51:44] "[37mGET /register.html HTTP/1.1[0m" 200 -
+[2020-06-04 15:51:45,021] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:51:45] "[37mGET /api/v1.0/image_codes/e927ef65-7682-4b1c-bb98-e3ea220a9ec4 HTTP/1.1[0m" 200 -
+[2020-06-04 15:51:51,299] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:51:51] "[33mGET /ligon.html HTTP/1.1[0m" 404 -
+[2020-06-04 15:51:57,101] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:51:57] "[33mGET /lggin.html HTTP/1.1[0m" 404 -
+[2020-06-04 15:52:01,638] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:52:01] "[37mGET /login.html HTTP/1.1[0m" 200 -
+[2020-06-04 15:52:01,686] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:52:01] "[37mGET /static/css/ihome/login.css HTTP/1.1[0m" 200 -
+[2020-06-04 15:52:01,689] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:52:01] "[37mGET /static/js/ihome/login.js HTTP/1.1[0m" 200 -
+[2020-06-04 15:52:08,133] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:52:08] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+[2020-06-04 15:52:16,729] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:52:16] "[37mGET /123 HTTP/1.1[0m" 200 -
+[2020-06-04 15:54:04,596] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:54:04] "[33mGET /123 HTTP/1.1[0m" 404 -
+[2020-06-04 15:54:16,419] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:54:16] "[33mGET /api/v1.0/image_codes/0e459619-c20e-498b-b8b6-f69b09d51958 HTTP/1.1[0m" 404 -
+[2020-06-04 15:55:21,958] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 15:55:21,959] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 15:55:21,975] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:55:21] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 15:55:22,155] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:55:22] "[33mGET /api/v1.0/image_codes/9ebca079-a82f-4153-9672-e93aa0baf360 HTTP/1.1[0m" 404 -
+[2020-06-04 15:58:46,815] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:58:46] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 15:58:46,894] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 15:58:46] "[33mGET /api/v1.0/image_codes/dddb271d-f738-4ca9-bb5d-ce657d8dc499 HTTP/1.1[0m" 404 -
+[2020-06-04 16:03:19,498] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/web_html.py', reloading
+[2020-06-04 16:03:19,626] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:03:29,896] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 16:03:29,897] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:03:30,435] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:03:30,436] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:03:34,091] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:03:34,139] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:03:34,144] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:03:34,144] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:03:34,360] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:03:34,361] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:03:34,748] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:03:34] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:04:06,212] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:04:06] "[37mGET /register.html HTTP/1.1[0m" 200 -
+[2020-06-04 16:04:06,321] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:04:06] "[33mGET /api/v1.0/image_codes/1d744a7f-7029-4c3e-a48f-2978b8e759f1 HTTP/1.1[0m" 404 -
+[2020-06-04 16:45:52,923] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:45:52,925] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:45:54,332] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:45:54] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 16:45:54,462] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:45:54] "[33mGET /api/v1.0/image_codes/2e71e3c4-cd26-4fbb-b9a3-e427eaa93623 HTTP/1.1[0m" 404 -
+[2020-06-04 16:47:34,639] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/__init__.py', reloading
+[2020-06-04 16:47:34,863] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:47:35,657] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:47:35,657] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:47:46,281] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:47:46,282] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:48:08,450] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 16:48:08,526] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:48:09,084] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:48:09,084] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:48:18,257] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:48:18,258] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:48:23,629] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:48:23,682] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:23,685] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:23,685] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:23,852] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:23,853] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:23,975] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:23] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:50,904] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 16:48:50,905] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:48:54,614] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:54] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:48:54,709] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:54] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:54,712] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:54] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:54,713] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:54] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:55,012] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:55] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:55,017] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:55] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:48:55,276] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:48:55] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:52,665] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:50:52,729] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:52,730] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:52,731] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:52,895] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:52,898] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:52] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:50:53,019] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:50:53] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,406] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:52:30,462] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,464] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,480] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,619] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,632] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:30,711] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:30] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:54,818] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 16:52:54,818] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:52:58,594] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:52:58,649] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:58,650] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:58,652] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:58,845] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:58,850] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:58] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:52:59,186] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:52:59] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:36,285] INFO _internal.py:113  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-06-04 16:55:36,285] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 16:55:36,830] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 16:55:36,831] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 16:55:40,042] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[35m[1mGET /register.html HTTP/1.1[0m" 500 -
+[2020-06-04 16:55:40,089] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:40,091] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:40,095] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:40,221] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:40,252] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 16:55:40,720] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 16:55:40] "[37mGET /register.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2020-06-04 17:01:57,495] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:01:57] "[37mGET /register.html HTTP/1.1[0m" 200 -
+[2020-06-04 17:01:57,610] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:01:57] "[35m[1mGET /api/v1.0/image_codes/34bd984c-4ce4-4a31-b747-308ba17f1d03 HTTP/1.1[0m" 500 -
+[2020-06-04 17:02:35,294] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:02:35,396] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:02:36,015] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:02:36,015] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:02:39,970] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:02:39] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:02:40,051] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:02:40] "[35m[1mGET /api/v1.0/image_codes/e3012791-8273-486e-b22a-a8b85cbf103e HTTP/1.1[0m" 500 -
+[2020-06-04 17:03:09,135] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:03:09,352] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:03:18,981] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:03:18,981] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:03:19,815] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:03:19] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:03:19,899] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:03:19] "[35m[1mGET /api/v1.0/image_codes/290cc7f2-633a-4125-91a0-ef44ddc3cc67 HTTP/1.1[0m" 500 -
+[2020-06-04 17:08:36,437] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:08:36,630] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:08:46,008] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:08:46,008] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:08:47,156] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:08:47] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:08:47,246] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:08:47] "[35m[1mGET /api/v1.0/image_codes/7da112c9-0cfc-4bba-8bf2-bac7bd2e03f1 HTTP/1.1[0m" 500 -
+[2020-06-04 17:11:42,970] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:11:42] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:11:43,098] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:11:43] "[35m[1mGET /api/v1.0/image_codes/6b4ff4b7-1b41-4a2a-bb39-0d9f48adc60a HTTP/1.1[0m" 500 -
+[2020-06-04 17:12:23,238] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/utils/captcha/captcha.py', reloading
+[2020-06-04 17:12:23,325] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:12:24,066] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:12:24,074] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:12:33,210] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:12:33,210] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:12:47,761] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:12:47] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:12:47,898] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:12:47] "[35m[1mGET /api/v1.0/image_codes/44df1e74-7443-4bf6-9fb7-93651e69d3c9 HTTP/1.1[0m" 500 -
+[2020-06-04 17:13:13,536] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/utils/captcha/captcha.py', reloading
+[2020-06-04 17:13:13,762] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:13:17,414] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:13:17] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:13:17,550] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:13:17] "[35m[1mGET /api/v1.0/image_codes/df6964bd-d763-4e38-b0b3-9ed11e70f331 HTTP/1.1[0m" 500 -
+[2020-06-04 17:13:38,789] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/utils/captcha/captcha.py', reloading
+[2020-06-04 17:13:39,131] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:13:42,384] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:13:42] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:13:42,498] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:13:42] "[35m[1mGET /api/v1.0/image_codes/73c96b3b-1b25-4c79-9780-93e63dc8ec8c HTTP/1.1[0m" 500 -
+[2020-06-04 17:19:00,696] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:19:00] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:19:00,807] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:19:00] "[35m[1mGET /api/v1.0/image_codes/46de99ff-7fe2-4b1c-bb14-fe7df6ef6d60 HTTP/1.1[0m" 500 -
+[2020-06-04 17:19:28,495] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/utils/captcha/captcha.py', reloading
+[2020-06-04 17:19:28,596] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:19:32,408] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:19:32] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:19:32,508] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:19:32] "[37mGET /api/v1.0/image_codes/2ac95cd7-6064-4187-8077-1b0f2327e5c9 HTTP/1.1[0m" 200 -
+[2020-06-04 17:24:41,998] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:24:42,080] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:24:44,980] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:24:45,163] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:24:45,912] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:24:45,912] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:29:26,238] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:29:26] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:29:26,459] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:29:26] "[35m[1mGET /api/v1.0/image_codes/35fba66f-4247-4ec7-b154-11f174c2651e HTTP/1.1[0m" 500 -
+[2020-06-04 17:30:16,689] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/__init__.py', reloading
+[2020-06-04 17:30:17,113] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:30:20,396] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:30:20,489] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:30:21,236] WARNING _internal.py:113  * Debugger is active!
+[2020-06-04 17:30:21,237] INFO _internal.py:113  * Debugger PIN: 118-200-028
+[2020-06-04 17:30:21,292] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:30:21] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:30:21,401] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:30:21] "[37mGET /api/v1.0/image_codes/204d6b2b-ac56-4862-83c1-65f5c71d1d19 HTTP/1.1[0m" 200 -
+[2020-06-04 17:31:44,451] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:31:44] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:31:44,669] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:31:44] "[37mGET /api/v1.0/image_codes/a24f585d-3cd9-42ea-8694-3d15b6fdb95e HTTP/1.1[0m" 200 -
+[2020-06-04 17:33:26,870] INFO _internal.py:113  * Detected change in '/home/python/study/ihome/ihome/api_1_0/verify_code.py', reloading
+[2020-06-04 17:33:27,089] INFO _internal.py:113  * Restarting with stat
+[2020-06-04 17:33:30,946] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:33:30] "[36mGET /register.html HTTP/1.1[0m" 304 -
+[2020-06-04 17:33:31,044] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:33:31] "[37mGET /api/v1.0/image_codes/d5457401-4a54-4bc9-b381-8d32f007950f HTTP/1.1[0m" 200 -
+[2020-06-04 17:34:50,247] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:34:50] "[37mGET /api/v1.0/image_codes/3c97fac6-9a37-4e96-ba47-457e37f3cb3a HTTP/1.1[0m" 200 -
+[2020-06-04 17:34:52,776] INFO _internal.py:113 101.231.252.126 - - [04/Jun/2020 17:34:52] "[37mGET /api/v1.0/image_codes/4a680ff6-bfb3-48dc-9b8a-f72763f2b6b5 HTTP/1.1[0m" 200 -
