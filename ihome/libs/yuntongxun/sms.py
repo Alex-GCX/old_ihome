@@ -1,6 +1,10 @@
 # coding=utf-8
 
 from .CCPRestSDK import REST
+import ssl
+# 全局取消证书验证
+ssl._create_default_https_context = ssl._create_unverified_context
+# ssl.match_hostname = lambda cert, hostname: True
 
 # 主帐号
 accountSid = '8aaf07087249953401727fa88e1e1c9d'
@@ -49,6 +53,7 @@ class CCP(object):
     def send_template_sms(self, to, datas, temp_id):
         """"""
         result = self.rest.sendTemplateSMS(to, datas, temp_id)
+        # print('result:\n', result)
         # for k, v in result.iteritems():
         #
         #     if k == 'templateSMS':
@@ -70,8 +75,5 @@ class CCP(object):
 
 if __name__ == '__main__':
     ccp = CCP()
-    ret = ccp.send_template_sms("18516952650", ["1234", "5"], 1)
+    ret = ccp.send_template_sms("17621081762", ["1234", "5"], 1)
     print(ret)
-
-    
-   

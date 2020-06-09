@@ -13,9 +13,9 @@
 from hashlib import md5
 import base64
 import datetime
-import urllib.request
+import urllib.request as urllib2
 import json
-# import xmltojson
+from .xmltojson import xmltojson
 from xml.dom import minidom 
 
 class REST:
@@ -117,9 +117,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -168,9 +167,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -220,9 +218,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -242,12 +239,15 @@ class REST:
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         #生成sig
         signature = self.AccountSid + self.AccountToken + self.Batch;
-        sig = md5.new(signature).hexdigest().upper()
+        signature = signature.encode('utf-8') # py3
+        # sig = md5.new(signature).hexdigest().upper()
+        sig = md5(signature).hexdigest().upper() # py3
         #拼接URL
         url = "https://"+self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SMS/TemplateSMS?sig=" + sig
         #生成auth
         src = self.AccountSid + ":" + self.Batch;
-        auth = base64.encodestring(src).strip()
+        # auth = base64.encodestring(src).strip()
+        auth = base64.encodestring(src.encode()).strip()
         req = urllib2.Request(url)
         self.setHttpHeader(req)
         req.add_header("Authorization", auth)
@@ -266,7 +266,8 @@ class REST:
                 b+='"%s",'%(a) 
             b+=']'
             body = '''{"to": "%s", "datas": %s, "templateId": "%s", "appId": "%s"}'''%(to,b,tempId,self.AppId)
-        req.add_data(body)
+        # req.add_data(body)
+        req.data = body.encode() # py3
         data=''
         try:
             res = urllib2.urlopen(req);
@@ -278,9 +279,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -341,9 +341,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -399,9 +398,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -446,9 +444,8 @@ class REST:
             res = urllib2.urlopen(req);
             data = res.read()
             res.close()
-            #  xtj=xmltojson()
-            #  locations=xtj.main(data)
-            pass
+            xtj=xmltojson()
+            locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -499,9 +496,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -540,9 +536,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -591,9 +586,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main2(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main2(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -634,9 +628,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -686,9 +679,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -739,9 +731,8 @@ class REST:
                 locations = json.loads(data)
             else:
                 #xml格式
-                #  xtj=xmltojson()
-                #  locations=xtj.main(data)
-                pass
+                xtj=xmltojson()
+                locations=xtj.main(data)
             if self.Iflog:
                 self.log(url,body,data)
             return locations
@@ -782,7 +773,8 @@ class REST:
             print('172004');
             print('IP为空');
         
-        if(self.ServerPort<=0):
+        #if(self.ServerPort<=0):
+        if(int(self.ServerPort)<=0): # py3
             print('172005');
             print('端口错误（小于等于0）');
         

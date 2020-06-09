@@ -41,7 +41,7 @@ def create_app(config_name):
     # 设置session存储到redis中
     Session(app)
     # 为flask补充csrf防护
-    CSRFProtect(app)
+    # CSRFProtect(app)
     # 将数据库对象初始化app
     db.init_app(app)
     # 修改数据迁移对象
@@ -51,7 +51,8 @@ def create_app(config_name):
     global redis_store
     redis_store = redis.StrictRedis(host=config_class.REDIS_HOST,
                               port=config_class.REDIS_PORT,
-                              db=1)
+                              db=1,
+                              decode_responses=True)
     # 注册自定义转换器
     from .utils.commons import ReConverter
     app.url_map.converters['re'] = ReConverter
@@ -63,6 +64,5 @@ def create_app(config_name):
     from .web_html import web_html
     app.register_blueprint(web_html, url_prefix='/')
 
-    print(app.url_map)
     return app
 

@@ -23,7 +23,7 @@ function generateImageCode() {
     // 形成图片验证码的后端地址， 设置到页面中，让浏览请求验证码图片
     // 1. 生成图片验证码编号
     imageCodeId = generateUUID();
-    // 是指图片url
+    // 设置图片url
     var url = "/api/v1.0/image_codes/" + imageCodeId;
     $(".image-code img").attr("src", url);
 }
@@ -44,6 +44,36 @@ function sendSMSCode() {
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     }
+    var req_data = {
+        image_code: imageCode,
+        image_code_id: imageCodeId
+    }
+    $.get('/api/v1.0/smscodes/' + mobile, req_data, function(resp){
+        if (resp.errno == '0'){
+            //验证码短信发送成功
+            //重新刷新图片验证码
+            generateImageCode();
+            //倒计时60秒
+            var num = 60;
+            //serInterval(func, milliseconds) 每xxx毫秒执行一次func
+            var timer = setInterval(function (){
+                if (num>=1){
+                    //设置按钮显示当前秒数num
+                    $('.phonecode-a').html(num+'秒');
+                    num -= 1;
+                }else{
+                    //计时完成,将按钮重置可点击状态
+                    $('.phonecode-a').html('获取验证码');
+                    $('.phonecode-a').attr('onclick', 'sendSMSCode();');
+                    //清空timer
+                    clearInterval(timer)
+                }
+            }, 1000)
+        }else{
+            alert(resp.errmsg)
+            $('.phonecode-a').attr('onclick', 'sendSMSCode();');
+        }
+    })
 }
 
 $(document).ready(function() {
@@ -90,5 +120,31 @@ $(document).ready(function() {
             $("#password2-err").show();
             return;
         }
+        //发送ajax注册请求
+        //组织数据
+        var req_data = {
+            mobile: mobile,
+            phonecode: phoneCode,
+            password: passwd,
+            password2: passwd2
+        }
+        var req_json = JSON.stringify(req_data)
+        $.ajax({
+            url: '/api/v1.0/users/',
+            type: 'POST',
+            contentType: 'application/json',
+            dataType: 'json',
+            data: req_json,
+            header: {
+                'X-CSRFToken': getCookie('csrf_token')
+            },  //请求头,将csrf_token值放到请求中,方便后端csrf进行验证
+            success: function(resp){
+                if (resp.errno == '0'){
+                    location.href='/index.html'
+                }else{
+                    alert(resp.errmsg)
+                }
+            }
+        })
     });
 })
