@@ -4,7 +4,9 @@ from ihome import redis_store, constants
 from flask import current_app, jsonify, make_response, request
 from ihome.utils.response_code import RET
 from ihome.libs.yuntongxun.sms import CCP
+from ihome.tasks.task_sms import send_sms
 import random
+from datetime import datetime
 
 
 @api.route('image_codes/<image_code_id>/')
@@ -68,25 +70,30 @@ def get_smscode(mobile):
     # 保存手机验证码
     redis_store.setex('sms_code_%s' % mobile, constants.REDIS_SMS_CODE_EXPIRES,
                       sms_code)
-    # 发送短信
-    try:
-        ccp = CCP()
-        result = ccp.send_template_sms(mobile, [sms_code,
-                                                int(constants.REDIS_SMS_CODE_EXPIRES/60)],
-                                      1)
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.THIRDERR, errmsg='发送短信异常')
+    # 同步发送短信
+    #  try:
+        #  ccp = CCP()
+        #  result = ccp.send_template_sms(mobile, [sms_code,
+                                                #  int(constants.REDIS_SMS_CODE_EXPIRES/60)],
+                                      #  1)
+    #  except Exception as e:
+        #  current_app.logger.error(e)
+        #  return jsonify(errno=RET.THIRDERR, errmsg='发送短信异常')
+#
+    #  # 返回
+    #  if result == 0:
+        #  # 记录该手机发送成功,60秒不能再发送
+        #  try:
+            #  redis_store.setex('has_send_sms_code_%s' % mobile,
+                              #  constants.REDIS_SMS_CODE_SEND_EXPIRES,
+                              #  1)
+        #  except Exception as e:
+            #  current_app.llogger.error(e)
+        #  return jsonify(errno=RET.OK, errmsg='发送成功')
+    #  else:
+        #  return jsonify(errno=RET.THIRDERR, errmsg='发送失败')
 
-    # 返回
-    if result == 0:
-        # 记录该手机发送成功,60秒不能再发送
-        try:
-            redis_store.setex('has_send_sms_code_%s' % mobile,
-                              constants.REDIS_SMS_CODE_SEND_EXPIRES,
-                              1)
-        except Exception as e:
-            current_app.llogger.error(e)
-        return jsonify(errno=RET.OK, errmsg='发送成功')
-    else:
-        return jsonify(errno=RET.THIRDERR, errmsg='发送失败')
+    # 异步发送短信
+    result = send_sms(mobile, [sms_code, int(constants.REDIS_SMS_CODE_SEND_EXPIRES/60)],
+            1)
+    return jsonify(errno=RET.OK, errmsg='发送成功')
