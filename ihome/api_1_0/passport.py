@@ -1,11 +1,11 @@
 from ihome.api_1_0 import api
 from flask import request, jsonify, current_app, session
-from ihome import constants, redis_store, db
+from ihome import redis_store, db
 from ihome.models import User
 from ihome.utils.response_code import RET
-from werkzeug.security import generate_password_hash
 from sqlalchemy.exc import IntegrityError
 import re
+
 
 @api.route('users/', methods=['POST'])
 def register():
@@ -74,6 +74,7 @@ def register():
     session['mobile'] = user.mobile
 
     return jsonify(errno=RET.OK, errmsg='成功')
+
 
 @api.route('sessions/', methods=['POST'])
 def login():
